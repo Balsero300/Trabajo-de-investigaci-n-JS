@@ -17,18 +17,18 @@ body{
     padding: 10px;
 }
 .cont{
-    border: black solid 1px;
+    background: rgb(100, 219, 255);
     grid-area: contenido;
     margin: 10px;
     padding: 10px;
 }
 .ind{
-    border: black solid 1px;
+    background: rgb(5, 214, 162);
     grid-area: indice;
     margin: 10px;
 }
 .foot{
-    border: black solid 1px;
+    background: rgb(174, 0, 255);
     grid-area: foot;
     margin: 10px;
 }
