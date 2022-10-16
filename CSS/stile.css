@@ -9,16 +9,21 @@ body{
 .header{
     border: black solid 1px;
     grid-area: head;
+    margin: 10px;
 }
 .cont{
     border: black solid 1px;
     grid-area: contenido;
+    margin: 10px;
+    padding: 10px;
 }
 .ind{
     border: black solid 1px;
     grid-area: indice;
+    margin: 10px;
 }
 .foot{
     border: black solid 1px;
     grid-area: foot;
+    margin: 10px;
 }
