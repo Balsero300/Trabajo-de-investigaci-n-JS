@@ -4,16 +4,21 @@ body{
 }
 .contenedor{
     display: grid;
+    grid-template-areas: "head head""indice contenido""foot foot";
 }
 .header{
     border: black solid 1px;
+    grid-area: head;
 }
 .cont{
     border: black solid 1px;
+    grid-area: contenido;
 }
 .ind{
     border: black solid 1px;
+    grid-area: indice;
 }
 .foot{
     border: black solid 1px;
+    grid-area: foot;
 }
