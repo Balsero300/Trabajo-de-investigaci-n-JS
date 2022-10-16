@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/liberation-serif');
 body{
     margin: 0;
     padding: 0;
@@ -30,4 +31,7 @@ body{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12;
+}
+h1, h2, h3{
+    font-family: 'Liberation Serif', sans-serif;
 }
