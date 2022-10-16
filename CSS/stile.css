@@ -27,3 +27,7 @@ body{
     grid-area: foot;
     margin: 10px;
 }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+}
