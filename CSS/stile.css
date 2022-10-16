@@ -8,7 +8,7 @@ body{
     grid-template-areas: "head head""indice contenido""foot foot";
 }
 .header{
-    border: black solid 1px;
+    background: rgb(140, 140, 201);
     grid-area: head;
     display: flex;
     justify-content: space-evenly;
@@ -38,4 +38,8 @@ p{
 }
 h1, h2, h3{
     font-family: 'Liberation Serif', sans-serif;
+}
+.header img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(73, 173, 204);
 }
